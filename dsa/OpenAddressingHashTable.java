@@ -1,4 +1,4 @@
-/*
+
 package aed.tables;
 
 public class OpenAddressingHashTable <Key, Value> {
@@ -99,5 +99,3 @@ public class OpenAddressingHashTable <Key, Value> {
         return hashtable;
     }
 }
-
- */
