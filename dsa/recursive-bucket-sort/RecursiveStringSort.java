@@ -77,7 +77,7 @@ public class RecursiveStringSort extends Sort {
             limits.minChar = Character.MAX_VALUE;
         }
 
-        for (String str : a) { // aa a_
+        for (String str : a) { 
             if (charIndexIsValid(characterIndex, str)) { // char index 0 - é valido
                 char currentChar = str.charAt(characterIndex);
                 limits.minChar = (char) Math.min(limits.minChar, currentChar);
